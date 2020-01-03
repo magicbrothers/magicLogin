@@ -41,6 +41,7 @@ include $_SERVER["DOCUMENT_ROOT"]."/api/API.php";
             $form = $remote["form"];
             $api->deleteSession($_GET["id"]);
             ?>
+            <p>Passwort ist verschl&uuml;sselt. Zum Entschl&uuml;sseln und Einsetzten 'Decrypt password' klicken.</p>
             <input type="hidden" id="pwencrypted" value="<?=$password?>"/>
             <button onclick='decryptPW("<?=$fieldPwId?>")'>Decrypt password</button><br /><br />
             <?=$form?>
