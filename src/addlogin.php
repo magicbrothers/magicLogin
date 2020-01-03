@@ -34,11 +34,11 @@ require_once $_SERVER["DOCUMENT_ROOT"]."/api/API.php";
             <label>Username: <input type="text" name="username"></label><br />
             <label>FieldPwId: <input type="text" name="fieldpwid"></label><br />
             <label>Form: <textarea name="form">
-                    <form action="https://example.org/login" method="post">
-                        <label>Username: <input type="text" name="username" value="examplename" /></label><br />
-                        <label>Passwort: <input type="password" name="password" id="pw" /></label><br />
-                        <button>Login</button>
-                    </form>
+<form action="https://example.org/login" method="post">
+<label>Username: <input type="text" name="username" value="examplename" /></label><br />
+<label>Passwort: <input type="password" name="password" id="pw" /></label><br />
+<button>Login</button>
+</form>
                 </textarea></label><br />
             <label>Masterpassword: <input type="password" name="masterpassword"></label><br />
             <button>Weiter</button>
