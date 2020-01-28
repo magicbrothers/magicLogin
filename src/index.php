@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER["DOCUMENT_ROOT"]."/api/API.php";
+require_once __DIR__."/api/API.php";
 ?>
 <!DOCTYPE html>
 <html lang="de-DE">

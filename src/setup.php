@@ -1,5 +1,5 @@
 <?php
-include $_SERVER["DOCUMENT_ROOT"]."/link/db.php";
+require_once __DIR__."/link/db.php";
 
 $db = new DB();
 $db->getConnection();

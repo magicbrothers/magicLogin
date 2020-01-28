@@ -1,5 +1,5 @@
 <?php
-include $_SERVER["DOCUMENT_ROOT"]."/api/API.php";
+require_once __DIR__."/api/API.php";
 ?>
 <!DOCTYPE html>
 <html>
